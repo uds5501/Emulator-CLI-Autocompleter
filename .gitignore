@@ -1,4 +1,7 @@
 main
 go.sum
-.idea
-.vscode
+*.idea
+*.vscode
+*.apk
+*.pyc
+__pycache__
