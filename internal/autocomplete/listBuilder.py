@@ -33,7 +33,7 @@ def buildAVDList():
             current["arch"] = splitString[1][:-7] + splitString[2].strip() 
     
     avds.append(current)
-    print("[] Found {} suggestions!".format(len(avds)))
+    print("\nℹ️  Found {} suggestions!".format(len(avds)))
     return avds
 
 def buildAPKList():
@@ -47,8 +47,7 @@ def buildAPKList():
         for line in p.splitlines():
             cleaned = line.strip().split()
             data[apk] = [cleaned[0], int(cleaned[1]), cleaned[2]]
-            cnt += 1
-    print("[] Found {} suggestions".format(len(apks)))
+    print("\nℹ️  Found {} suggestions".format(len(apks)))
     return apks, data
 
 # print(buildAPKList())

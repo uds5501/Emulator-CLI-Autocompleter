@@ -42,6 +42,7 @@ class SDKCompleter(Completer):
                     start_position=-len(word),
                     display=display,
                     display_meta=sdkListMeta.get(sdk),
+                    selected_style="fg:white bg:green"
                 )
 
 
@@ -71,6 +72,7 @@ class AVDCompleter(Completer):
                     start_position=-len(word),
                     display=display,
                     display_meta=self.meta.get(avd),
+                    selected_style="fg:white bg:blue"
                 )
 
 class APKCompleter(Completer):
@@ -96,5 +98,6 @@ class APKCompleter(Completer):
                     apk,
                     start_position=-len(word),
                     display=display,
-                    display_meta=self.meta.get(apk)
+                    display_meta=self.meta.get(apk),
+                    selected_style="fg:black bg:red"
                 )
