@@ -53,7 +53,7 @@ def startApp(packageName, apk):
 
 def killProcess(apk, pName, package):
     print("🥱 Uninstalling {}".format(apk))
-    os.system("adb shell uninstall {}".format(package))
+    os.system("adb uninstall {}".format(package))
     print("🔪 Killing the AVD, standby comrade!\n")
     command = "ps -aux | grep {}".format(pName)
     p = subprocess.check_output(command, shell=True).decode("utf-8")
