@@ -24,13 +24,27 @@ The script uses the [prompt-toolkit](https://github.com/prompt-toolkit/python-pr
 
 ### Demo Run [Create new AVD]
 
-This is the demo run for creating a new Android Virtual Device. I will be making a classic `android-28;google_apis;x86_64` virtual device with no modification in hardware specifications.
+This is the demo run for creating a new Android Virtual Device. I will be making a classic `android-28;google_apis;x86_64` virtual device with no modification in hardware specifications. (Check out the gifs/emuavd1.mp4 in gifs!)
 
-![CreateAvd](gifs/emustartfun.gif)
+![CreateAVD](gifs/emuavd1.gif)
+
+
+##### Autocompletion example (system image choice step)
+![system-image](gifs/ss1.png)
+
 
 ### Demo Run [Run AVD]
 
+This is a demo run showing autocompletion feature being implemented in apk installation, avd population and synchronizing between apk calls. (Check out the gifs/emurun1.mp4 for better quality!)
+
+![RunAVD](gifs/emurun1.gif)
+
+##### Autocompletion example (AVD choice step)
+![avdchoice](gifs/ss2.png)
+
+##### Autocompletion example (APK choice step)
+![apkchoice](gifs/ss3.png)
+
 <hr/>
-## Demo Run [Install and Run APK]
 
 Tada! Thanks for reading the mini documentation!
